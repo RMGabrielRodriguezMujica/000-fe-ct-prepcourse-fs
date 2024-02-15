@@ -7,13 +7,12 @@ function esNumeroPrimo(numero) {
   // solo es divisible por sí mismo y por 1.
   // Tu código:
 
-
-    
-  if( numero % numero === 0 ){
-    return(true)
-  }else if(numero / numero) {
-    return(false)
-  }
+  if(numero % 2 === 0) return false
+  else if(numero === 2) return falce
+  else if(numero % 3 === 0) return false
+  else if(numero % 3 === 0) return false
+  
+  if(numero === 3) return falce
 
   
 }

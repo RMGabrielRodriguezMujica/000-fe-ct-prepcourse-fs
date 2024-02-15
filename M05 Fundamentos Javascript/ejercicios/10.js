@@ -4,7 +4,18 @@ function esFechaValida(fecha) {
   // Si es así, retorna true, sino retorna false.
   // Tu código:
 
-  
+
+  var fechaString = fecha.toString()
+
+  if(fechaString === "Invalid Date"){
+    return false;
+  }else {
+    return fecha instanceof Date;
+  }
+
+  return fecha instanceof Date;
+
+  /// NO ENTENDI
 }
 
 module.exports = esFechaValida;
