@@ -4,7 +4,14 @@ function mayoriaDeEdad(edad) {
   // Caso contrario: "Not allowed".
   // Tu código:
 
-  
+
+  if(edad >= 18){
+    return("Allowed")
+  }else {
+    return("Not allowed")
+  }
+
+
 }
 
 module.exports = mayoriaDeEdad;
