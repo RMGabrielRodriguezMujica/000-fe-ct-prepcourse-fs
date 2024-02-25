@@ -4,11 +4,17 @@ function sumarHastaNConBreak(n) {
   // Si la suma supera a 100, detén el bucle usando break.
   // Tu código:
   var z = 0
-  for(var i = 0; i <= n; i++){
+  for(var i = 1; i <= n; i++){
   z += i
- 
+
+  if(z > 100){
+      break;
+    }
   }
 return(z)
 }
 
 module.exports = sumarHastaNConBreak;
+
+
+// ESTE EJERCIO ESTA MALO

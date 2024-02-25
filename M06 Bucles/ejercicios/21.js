@@ -4,16 +4,14 @@ function esPotenciaDeDos(numero) {
   // Devuelve true si lo es, sino devuelve false.
   // PISTA: Utiliza un bucle while.
   // Tu código:
-
-    while (numero === 2 || 1 > numero) {
-      
-     var resultado = numero / 2
+  
+  while(numero > 1){
+    if (numero % 2 !== 0) {
+      return(false)
+     }
+     numero = numero / 2
     }
-
-    if (resultado == 2) {
-      return(true)
-      
-    }
+return(true)
 
 }
 

@@ -8,8 +8,8 @@ function productoEntreNúmeros(a, b) {
   for (let i = a; i <= b; i++) {
     resultado = i*resultado
   }
-  var resultadoF = Math.abs(resultado)
-  return(resultadoF)
+  var resultadoN = Math.abs(resultado)
+  return(resultadoN)
 
 }
 
